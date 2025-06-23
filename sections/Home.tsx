@@ -43,31 +43,35 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="scroll-mt-28 min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 pt-52 md:pt-44"
+      className="scroll-mt-28 min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 pt-52 md:pt-44 gap-5"
     >
       {/* Text Side */}
       <motion.div
-        className="max-w-xl text-center md:text-left"
+        className="w-full md:w-1/2 text-center md:text-left"
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
-          Hey, I’m{" "}
+        <h1 className="text-3xl sm:text-3xl md:text-5xl font-bold text-white leading-tight mb-4 w-full break-words text-center md:text-left">
+          Hey, I’m <br/> {" "}
           <span
             className={`inline-block ${
               isComplete
                 ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-400"
                 : "text-indigo-400 animate-pulse border-r-2 border-indigo-300"
-            } pr-1`}
+            }`}
             style={{
-              minWidth: "21ch",
-              whiteSpace: "nowrap",
+              display: "inline-block",
+              overflowWrap: "break-word",
+              wordBreak: "break-word",
+              maxWidth: "100%",
+              overflow: "hidden",
             }}
           >
             {typedName}
           </span>
         </h1>
+
 
         {/* Role Scroller */}
         <div className="relative overflow-hidden h-12 rounded-xl bg-white/10 backdrop-blur-md border border-white/10 p-2.5 mt-2 group">
@@ -110,19 +114,19 @@ const Home = () => {
         </motion.div>
       </motion.div>
 
-      {/* Image */}
+      {/* Image Side */}
       <motion.div
+        className="w-full md:w-1/2 flex justify-center"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
-        className="mb-10 md:mb-0"
       >
         <Image
           src="/sherwin.jpg"
           alt="Sherwin"
           width={340}
           height={340}
-          className="rounded-2xl shadow-2xl object-cover w-[280px] sm:w-[300px] md:w-[340px]"
+          className="rounded-2xl shadow-2xl object-cover w-[260px] sm:w-[300px] md:w-[340px]"
         />
       </motion.div>
     </section>

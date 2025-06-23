@@ -13,13 +13,13 @@ import Preloader from "@/components/PreLoader";
 export default function HomePage() {
   return (
     <>
-      <Preloader/>
-      {/* <StarBackground className="fixed inset-0 -z-10" /> */}
+      <Preloader />
 
+      {/* Full-page scroll container */}
       <div className="relative z-10 min-h-screen text-white">
         <Navbar />
 
-        {/* Page load animation for Hero */}
+        {/* Hero Section */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -28,6 +28,7 @@ export default function HomePage() {
           <Home />
         </motion.div>
 
+        {/* Other Sections */}
         <FadeInSection delay={0.2}>
           <About />
         </FadeInSection>

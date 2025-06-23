@@ -1,16 +1,32 @@
 "use client";
 
+import React from "react";
+
 const Footer = () => {
   return (
-    <footer className="w-full backdrop-blur-md shadow border-t border-white/10 px-6 py-8">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
-        <p className="text-white/70 text-sm">
-          © 2025 Sherwin | Portfolio. All rights reserved.
+    <footer className="w-full px-4 sm:px-6 md:px-20 py-6 bg-black/30 backdrop-blur-md border-t border-white/10 text-white text-sm">
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p className="text-white/60 text-center sm:text-left">
+          © {new Date().getFullYear()} Sherwin Rodriguez. All rights reserved.
         </p>
-        <ul className="flex gap-6 text-sm text-white/70">
-          <li className="hover:text-white cursor-pointer transition">Privacy Policy</li>
-          <li className="hover:text-white cursor-pointer transition">Terms of Service</li>
-        </ul>
+        <div className="flex gap-4 text-white/80">
+          <a
+            href="https://github.com/sherwin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-indigo-400 transition"
+          >
+            GitHub
+          </a>
+          <a
+            href="https://linkedin.com/in/sherwin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-indigo-400 transition"
+          >
+            LinkedIn
+          </a>
+        </div>
       </div>
     </footer>
   );

@@ -15,7 +15,7 @@ const About = () => {
         duration: 10,
       },
     });
-  }, [controls]); // <-- Trigger once on mount
+  }, [controls]);
 
   const skills = [
     { name: "Java", icon: "/skills/java.png" },
@@ -34,23 +34,25 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-28 px-6 md:px-20 min-h-screen flex flex-col items-center justify-center"
+      className="py-28 px-4 sm:px-6 md:px-20 min-h-screen flex flex-col items-center justify-center text-center"
     >
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="text-center text-white max-w-4xl"
+        className="max-w-4xl w-full"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-8">Who I Am</h2>
-        <p className="text-lg md:text-xl leading-relaxed text-white/80 mb-6">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-white">
+          Who I Am
+        </h2>
+        <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/80 mb-6">
           I’m a Computer Science student at Loyola ICAM College of Engineering
           and Technology, and a professional footballer with a passion for
           technology. My expertise lies in full-stack development — blending
           backend logic with sleek, user-focused frontend experiences.
         </p>
-        <p className="text-lg md:text-xl leading-relaxed text-white/80">
+        <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/80">
           I currently build real-world tools using{" "}
           <span className="text-white font-semibold">Spring Boot</span>,{" "}
           <span className="text-white font-semibold">Next.js</span>,{" "}
@@ -85,7 +87,7 @@ const About = () => {
           {[...skills, ...skills].map((skill, idx) => (
             <motion.div
               key={idx}
-              className="flex flex-col items-center justify-center transition-all duration-300 cursor-pointer"
+              className="flex flex-col items-center justify-center transition-all duration-300 cursor-pointer min-w-[60px]"
               whileHover={{ scale: 1.6 }}
             >
               <img
@@ -93,7 +95,7 @@ const About = () => {
                 alt={skill.name}
                 className="w-12 h-12 md:w-16 md:h-16 object-contain mb-2"
               />
-              <span className="text-sm text-white">{skill.name}</span>
+              <span className="text-sm text-white text-center">{skill.name}</span>
             </motion.div>
           ))}
         </motion.div>

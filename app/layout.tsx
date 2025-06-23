@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import AnimatedBackground from "@/components/AnimatedBackground"; // ← Add this
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased relative`}>
         <AnimatedBackground />
-        {children}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:p-8">
+          {children}
+        </div>
       </body>
     </html>
   );
