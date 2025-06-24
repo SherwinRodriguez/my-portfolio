@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
+ import Image from "next/image";
 import { motion } from "framer-motion";
+import ProfileCard from "@/components/ProfileCard";
 
 const roles = [
   "Full Stack Developer",
@@ -121,6 +122,15 @@ const Home = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
+        {/* <ProfileCard
+          name="Sherwin Rodriguez"
+          title="Full Stack Developer"
+          handle="sherwin.codes"
+          status="Available"
+          avatarUrl="/sherwin.jpg"
+          contactText="Hire Me"
+          onContactClick={() => console.log('Contact clicked')}
+        /> */}
         <Image
           src="/sherwin.jpg"
           alt="Sherwin"

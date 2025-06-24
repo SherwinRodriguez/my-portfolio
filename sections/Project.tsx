@@ -5,23 +5,23 @@ import { useRef } from "react";
 
 const projects = [
   {
-    title: "InternX",
+    title: "SER-AI",
     description:
-      "A full-stack internship simulation portal built with Java (Spring Boot) and Next.js to mimic real-world internship workflows.",
+      "An AI-powered assistant inspired by DeepSeek, tailored for seamless chat-based interaction. Serai combines powerful natural language capabilities with a custom frontend built using Next.js. It integrates Groq API for blazing-fast responses, with secure user authentication via Clerk, backend logic powered by Node.js, and persistent chat history managed through MongoDB.",
     link: "#",
     image: "/one.png",
   },
   {
-    title: "SecureBox",
+    title: "Quoteguard",
     description:
-      "Personal Data Vault with AES/RSA encryption built for security-focused file storage. Full-stack with encryption-first backend.",
+      "A smart invoice generator and verifier tailored for freelancers.Quoteguard allows users to create secure, tamper-proof invoices embedded with QR codes. Clients can verify authenticity, check payment status, and prevent fraud through a seamless digital experience.",
     link: "#",
     image: "/one.png",
   },
   {
-    title: "CodeDiffAI",
+    title: "AlgoArena",
     description:
-      "AI-powered tool to compare old vs. new codebases (HTML to React, etc.), auto-generate mappings, and highlight differences.",
+      "An interactive coding arena with real-time code execution.Built for problem solvers, AlgoArena supports multiple languages using the Judge0 API. It offers a smooth playground for practicing DSA, testing logic, and improving coding speed.",
     link: "#",
     image: "/one.png",
   },
@@ -86,7 +86,7 @@ export default function Project() {
                   className="mb-6 rounded-xl w-full max-w-md object-cover shadow-lg border border-white/10"
                 />
                 <h3 className="text-3xl font-semibold mb-3">{project.title}</h3>
-                <p className="text-white/80 mb-4">{project.description}</p>
+                <p className="text-white/80 mb-4 line-clamp-5">{project.description}</p>
                 <a
                   href={project.link}
                   className="text-indigo-400 hover:text-indigo-300 font-medium transition"
