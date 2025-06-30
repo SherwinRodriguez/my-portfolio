@@ -56,7 +56,7 @@ const Contact = () => {
                 <Linkedin size={20} /> linkedin.com/in/sherwin
               </a>
               <a
-                href="https://github.com/sherwin"
+                href="https://github.com/SherwinRodriguez"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 hover:text-indigo-400 transition"
