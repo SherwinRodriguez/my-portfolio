@@ -3,15 +3,16 @@
 import React, { useEffect, useState } from "react";
  import Image from "next/image";
 import { motion } from "framer-motion";
-import ProfileCard from "@/components/ProfileCard";
 
 const roles = [
-  "Full Stack Developer",
-  "Java & Spring Boot Engineer",
-  "Next.js Enthusiast",
-  "MongoDB + TypeScript Pro",
-  "Open Source Explorer",
-  "Professional Footballer",
+  "Full Stack Engineer (Next.js & Spring Boot)",
+  "Java Backend Specialist | REST & Microservices",
+  "TypeScript + MongoDB Craftsman",
+  "Next.js + Tailwind UI Builder",
+  "Open Source Contributor & Explorer",
+  "Smart Web App Engineer (PDF, QR, Auth)",
+  "API-first Developer | Secure & Scalable Systems",
+  "Web3 Curious | ETHGlobal Builder"
 ];
 
 const fullName = "Sherwin Emmanuel Rodriguez";

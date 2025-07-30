@@ -48,7 +48,7 @@ const Contact = () => {
                 <Mail size={20} /> sherwin7rodriguez10@gmail.com
               </a>
               <a
-                href="https://linkedin.com/in/sherwin"
+                href="https://www.linkedin.com/in/sherwin-emmanuel-rodriguez-67445b290/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 hover:text-indigo-400 transition"

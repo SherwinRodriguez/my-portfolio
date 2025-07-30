@@ -49,17 +49,17 @@ const About = () => {
         <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/80 mb-6">
           I’m a Computer Science student at Loyola ICAM College of Engineering
           and Technology, and a professional footballer with a passion for
-          technology. My expertise lies in full-stack development — blending
-          backend logic with sleek, user-focused frontend experiences.
+          emerging technologies. I specialize in full-stack development — combining
+          backend logic with sleek, user-focused frontend experiences that scale.
         </p>
         <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/80">
           I currently build real-world tools using{" "}
           <span className="text-white font-semibold">Spring Boot</span>,{" "}
           <span className="text-white font-semibold">Next.js</span>,{" "}
           <span className="text-white font-semibold">MongoDB</span>, and{" "}
-          <span className="text-white font-semibold">Groq</span>. My goal? To
-          create high-performance apps and earn a place in a top product-based
-          company.
+          <span className="text-white font-semibold">Groq</span>. I'm also diving into{" "}
+          <span className="text-white font-semibold">blockchain</span> and{" "}
+          <span className="text-white font-semibold">decentralized apps</span> — exploring how smart contracts, identity verification, and tokenized systems can transform digital trust. My goal? To build scalable, secure Web3 products and contribute to the future of decentralized tech.
         </p>
       </motion.div>
 

@@ -11,7 +11,7 @@ const Footer = () => {
         </p>
         <div className="flex gap-4 text-white/80">
           <a
-            href="https://github.com/sherwin"
+            href="https://github.com/SherwinRodriguez"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"
@@ -19,7 +19,7 @@ const Footer = () => {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/sherwin"
+            href="https://www.linkedin.com/in/sherwin-emmanuel-rodriguez-67445b290/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-400 transition"

@@ -8,22 +8,22 @@ const projects = [
     title: "SER-AI",
     description:
       "An AI-powered assistant inspired by DeepSeek, tailored for seamless chat-based interaction. Serai combines powerful natural language capabilities with a custom frontend built using Next.js. It integrates Groq API for blazing-fast responses, with secure user authentication via Clerk, backend logic powered by Node.js, and persistent chat history managed through MongoDB.",
-    link: "#",
-    image: "/one.png",
+    link: "https://github.com/SherwinRodriguez/SER-AI",
+    image: "/SER-AI.png",
   },
   {
     title: "Quoteguard",
     description:
       "A smart invoice generator and verifier tailored for freelancers.Quoteguard allows users to create secure, tamper-proof invoices embedded with QR codes. Clients can verify authenticity, check payment status, and prevent fraud through a seamless digital experience.",
-    link: "#",
-    image: "/one.png",
+    link: "https://github.com/SherwinRodriguez/QuoteGuard",
+    image: "/QuoteGuard.png",
   },
   {
-    title: "AlgoArena",
-    description:
-      "An interactive coding arena with real-time code execution.Built for problem solvers, AlgoArena supports multiple languages using the Judge0 API. It offers a smooth playground for practicing DSA, testing logic, and improving coding speed.",
+    title: "Upcoming",
+    description:"",
+      // "An interactive coding arena with real-time code execution.Built for problem solvers, AlgoArena supports multiple languages using the Judge0 API. It offers a smooth playground for practicing DSA, testing logic, and improving coding speed.",
     link: "#",
-    image: "/one.png",
+    image: "/Upcoming.png",
   },
 ];
 
