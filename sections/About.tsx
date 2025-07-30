@@ -48,18 +48,15 @@ const About = () => {
         </h2>
         <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/80 mb-6">
           I’m a Computer Science student at Loyola ICAM College of Engineering
-          and Technology, and a professional footballer with a passion for
-          emerging technologies. I specialize in full-stack development — combining
-          backend logic with sleek, user-focused frontend experiences that scale.
+          and Technology, and a Full Stack Web3 Developer with a focus on building secure, scalable, and user-friendly applications. My expertise lies in crafting seamless experiences across the stack — from robust Java Spring Boot APIs to sleek frontend interfaces built with Next.js and TypeScript.
         </p>
+
+        <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/80 mb-6">
+          My go-to tech stack includes <span className="text-white font-semibold">Java</span>, <span className="text-white font-semibold">Spring Boot</span>, <span className="text-white font-semibold">Next.js</span>, <span className="text-white font-semibold">MongoDB</span>, and <span className="text-white font-semibold">TypeScript</span>. I’ve recently started diving deeper into <span className="text-white font-semibold">Web3 development</span> using tools like Solidity, Ethers.js, and Groq APIs — exploring how decentralized apps can change the way we build trust online.
+        </p>
+
         <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/80">
-          I currently build real-world tools using{" "}
-          <span className="text-white font-semibold">Spring Boot</span>,{" "}
-          <span className="text-white font-semibold">Next.js</span>,{" "}
-          <span className="text-white font-semibold">MongoDB</span>, and{" "}
-          <span className="text-white font-semibold">Groq</span>. I'm also diving into{" "}
-          <span className="text-white font-semibold">blockchain</span> and{" "}
-          <span className="text-white font-semibold">decentralized apps</span> — exploring how smart contracts, identity verification, and tokenized systems can transform digital trust. My goal? To build scalable, secure Web3 products and contribute to the future of decentralized tech.
+          Outside of tech, I’m a professional footballer — a journey that’s shaped my mindset, discipline, and resilience both on and off the field.
         </p>
       </motion.div>
 
